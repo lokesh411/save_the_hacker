@@ -1,7 +1,7 @@
 let radio_btn=document.querySelectorAll(".radio");
 let radio_option=document.querySelectorAll(".radio-choice")
 for (let i = 0; i < radio_btn.length; i++) {
-  radio_btn[i].addEventListener("click", function(){
+  radio_option[i].addEventListener("click", function(){
     removeActive();
     radio_btn[i].classList.add("radio-active");
     radio_option[i].classList.add("radio-choice-active");
